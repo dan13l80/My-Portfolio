@@ -558,6 +558,7 @@ header nav {
 .work h3 {
     padding: 0px;
     text-align: center;
+    font-size: 45px;
 }
     
 .aboutme h3 {
@@ -565,6 +566,7 @@ header nav {
     justify-content: center;
     padding: 0px;
     text-align: center;
+    font-size: 45px;
 }
 
 
@@ -602,6 +604,7 @@ header nav {
     text-align: center;
     border-right: none;
     padding-right: 0px;
+    font-size: 45px;
 }
 
 .links {
@@ -654,6 +657,7 @@ header nav ul li a {
 
 .work h3 {
     font-size: 35px
+    
 }
 
 .contactme h3 {
