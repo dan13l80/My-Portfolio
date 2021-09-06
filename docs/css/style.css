@@ -274,7 +274,7 @@ header a {
     bottom: 50px;
     padding: 20px 15px 20px 25px;
     background-color: rgba(169, 181, 216, 0.295);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #31343d;
     font-size: 30px;
 }
@@ -283,7 +283,7 @@ header a {
     font-size: 15px;
     font-weight: 500;
     padding-top: 5px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Small Projet Wrap begin here for other Projects */
@@ -336,7 +336,7 @@ header a {
     left: 20px;
     padding: 20px 15px 10px 25px;
     background-color: rgba(169, 181, 216, 0.295);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #31343d;
     font-size: 25px;
 }
@@ -345,7 +345,7 @@ header a {
     font-size: 15px;
     font-weight: 500;
     padding-top: 5px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -369,7 +369,7 @@ header a {
  }
     
 .project-3 a, .project-5 a {
-    background-color: rgba(0, 68, 255, 0.295);
+    background-color: #19516d;;
     margin-left: 20px;
     height: 200px;
     width: 440px;
@@ -387,7 +387,7 @@ header a {
     left: 20px;
     padding: 20px 15px 10px 25px;
     background-color: rgba(169, 181, 216, 0.295);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #31343d;
     font-size: 25px;
 }
@@ -396,7 +396,7 @@ header a {
     font-size: 15px;
     font-weight: 500;
     padding-top: 5px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Subgroup project styling ends */
@@ -451,15 +451,15 @@ header a {
 
 .links ul li a {
     color: #fd9f12;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Contact Me Styling Ends Here */
 
+
+
+
 /* Sizing for different Screens */
-
-
-
 
 @media screen and (max-width: 980px) {
 .aboutme {
@@ -648,10 +648,23 @@ header nav ul li a {
     font-size: 28px
 }
 
+.aboutme h3 {
+    font-size: 35px
+}
+
+.work h3 {
+    font-size: 35px
+}
+
+.contactme h3 {
+    font-size: 35px
+}
+
 .subrunbuddy {
     font-size: 25px;
     padding-top: 0px;
     padding-bottom: 5px;
+    
 }
 
 .subrunbuddy p {
