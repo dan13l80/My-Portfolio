@@ -1,0 +1,673 @@
+/* General Styling Starts */
+* {margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styling for the Main Body */
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Styling for the main body ends here */
+
+/* Header/Nav Style Starts */
+header {
+    background-color: #19516d;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+}
+
+header h1 {
+    padding-left: 50px;
+    color: #ffffff;
+}
+
+header nav {
+    vertical-align: middle;
+    margin: 8px 0;
+}
+
+nav {
+    display: flex;
+    height: 40px;
+    padding-top: 30px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    align-items: center;
+}
+
+.title h1 {
+    background-color: #ffffff;
+    color: rgba(255, 0, 0, 0.774);
+    font-size: 45px;
+    padding: 10px 10px 10px 100px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    font-size: 25px;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    font-size: large;
+    padding: 10px 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+nav ul li {
+    display:inline-block;
+    margin-left: 25px;
+    padding: 10px 10px;
+    margin: 0px 15px;
+}
+
+nav ul li a{
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section {
+    padding: 20px 35px;
+}
+
+header a {
+    /* Longer bootom border under the element as mockup */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 2px solid #ffffff;
+    color: #342b68;
+}
+
+/* Header nav hover over */
+.nav-effects a:hover{
+    color: #a8cd92;
+    font-weight: bold;
+    text-shadow: 0px 0px 20px #a8cd92;
+}
+
+/* Header/Nav Style Ends */
+
+/* Hero Style Starts*/
+
+/* Styling for Hero Starts Here */
+.hero {
+    height: 400px;
+    position: relative;
+    background-image: url(../images/bg.jpeg);
+    background-size:contain;
+    background-position:center;
+    background-attachment:fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-top: 15px;
+    background-color: #6774a5ab;
+}
+
+.herosubtitle { 
+    margin-top: auto;
+    padding: 10px;
+    background-color: #6774a5ab;
+    position: absolute;
+    bottom: 40px;
+
+}
+
+.herosubtitle h2 {
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffffef;
+}
+
+.photo {
+    border: 2px solid rgb(255, 246, 208);
+    background-image: url(../images/dp.jpg);
+    background-size:cover;
+    background-position:center;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 80px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+}
+
+/* Hero Style Ends */
+
+/* Styling Bio Starts */
+
+.bio {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.column-one {
+    display: inline-flex;
+    vertical-align: top;
+    position: relative;
+}
+
+/* About Me Section Starts*/
+
+
+.aboutme {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.aboutme h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    padding: 0 0 0 0;
+    border-right: 4px solid #19516d;
+    text-align: right;
+    display: flex
+}
+
+.paragraph {
+    display: block;
+    justify-content: left;
+}
+
+.paragraph p {font-size: 17px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif
+}
+    
+.paragraph .p1, .p2 {
+    padding-left: 20px;
+}
+    
+.paragraph .p2 {
+    padding-top: 20px;
+}
+
+/* About me Styling End */
+
+/* Projects Section */
+
+.work {
+    display: flex;
+    position: relative;
+    padding: 20px 0 20px 15px;
+    margin-left: 60px;
+}
+
+.work h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    padding: 0 15px 0 5px;
+    border-right: 4px solid #19516d;
+    text-align: right;
+}
+
+/* Run-buddy Project Styling */
+
+.run-buddy{
+    position: relative;
+    display: inline-flex;
+    height: 500px;
+    width: 900px;
+    justify-content: left;
+    align-items: flex-end;
+    width: 80%;
+    height: auto;
+}
+
+.run-buddy img {
+    display: inline-flex;
+    border: 4px solid #f7f6e1;;
+    height: 500px;
+    width: 900px;
+    vertical-align: middle;
+    opacity: 80%;
+    transition: opacity 0.3s, transform 0.3s;
+    width: 100%;
+    height: auto;
+}
+.run-buddy a {
+    background-color: #19516d;;
+    margin-left: 20px;
+    
+}
+
+.run-buddy img:hover {
+    opacity: 100%;
+    transition: 0.3s;
+}
+
+.subrunbuddy {
+    position: absolute;
+    z-index: 9999;
+    left: 20px;
+    bottom: 50px;
+    padding: 20px 15px 20px 25px;
+    background-color: rgba(169, 181, 216, 0.295);
+    font-family: 'Times New Roman', Times, serif;
+    color: #31343d;
+    font-size: 30px;
+}
+    
+.subrunbuddy p {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Smallerproject Group Styling Begin */
+
+.smallerprojects {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.project-2, .project-4 {
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: inline-flex;
+    height: 200px;
+    width: 440px;
+    margin-bottom: 10px;
+}
+
+.project-2 img, .project-4 img {
+    display: inline-flex;
+    border: 4px solid #f7f6e1;
+    height: 200px;
+    width: 440px;
+    opacity: 75%;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.project-2 a, .project-4 a  {
+    background-color: #19516d;;
+    margin-left: 20px;
+    height: 200px;
+    width: 440px;
+}
+
+.project-2 img:hover, .project-4 img:hover  {
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+.smallerproject2, .smallerproject4 {
+    position: absolute;
+    z-index: 9999;
+    top: 75px;
+    left: 20px;
+    padding: 20px 15px 10px 25px;
+    background-color: rgba(169, 181, 216, 0.295);
+    font-family: 'Times New Roman', Times, serif;
+    color: #31343d;
+    font-size: 25px;
+}
+
+.smallerproject2 p, .smallerproject4 p {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.project-3, .project-5 {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-flex;
+    height: 200px;
+    width: 440px;
+    margin-bottom: 10px;
+}
+    
+.project-3 img, .project-5 img {
+    display: inline-flex;
+    border: 4px solid #f7f6e1;
+    height: 200px;
+    width: 440px;
+    opacity: 75%;
+    transition: opacity 0.3s, transform 0.3s;
+ }
+    
+.project-3 a, .project-5 a {
+    background-color: rgba(0, 68, 255, 0.295);
+    margin-left: 20px;
+    height: 200px;
+    width: 440px;
+}
+    
+.project-3 img:hover, .project-5 img:hover {
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+.smallerproject3, .smallerproject5 {
+    position: absolute;
+    z-index: 9999;
+    top: 75px;
+    left: 20px;
+    padding: 20px 15px 10px 25px;
+    background-color: rgba(169, 181, 216, 0.295);
+    font-family: 'Times New Roman', Times, serif;
+    color: #31343d;
+    font-size: 25px;
+}
+    
+.smallerproject3 p, .smallerproject5 p {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Subgroup project styling ends */
+
+/* Contact Me Styling Begins Here */
+
+.contactme{
+    display: flex;
+    position: relative;
+    margin-left: 15px;
+}
+
+.column-three {
+    margin-right: auto;
+    margin-left: 52px;
+    display: inline-flex;
+    vertical-align: top;
+    position: relative;
+}
+
+.contactme h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    padding: 0 15px 0 5px;
+    border-right: 4px solid #19516d;
+    text-align: right;
+}
+
+ .links {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.links ul { 
+    list-style-type: none;
+    font-size: 18px;
+    display: block;
+}
+
+.links ul li {  
+    display: inline-flex;
+    margin-right: 60px;
+    padding: 10px 5px 0px 5px;
+}
+
+
+
+.links ul li a {
+    color: #fd9f12;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contact Me Styling Ends Here */
+
+/* Sizing for different Screens */
+
+
+
+
+@media screen and (max-width: 980px) {
+.aboutme {
+    flex: 100%;
+}
+  
+header { 
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+        
+nav {
+    padding-right: 0px;
+}
+
+.title h1 { width: 100%;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+        
+header nav ul {
+    justify-content: center;
+    display: inline;
+    padding-left: 10px;
+}
+        
+header nav ul li a {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+.bio h3 {
+    font-size: 70px;
+}
+
+header {     
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-shrink: 0 100%;
+        
+}
+
+.run-buddy {
+    flex: 0 70%;
+}
+
+.subrunbuddy {
+    flex: 1 100%;
+}
+
+.title h1 {
+    font-size: 65px;
+}
+
+header nav {
+    margin-top: -14px;
+    margin-bottom: 30px;
+    width: 100%;
+    justify-content: center;
+    flex-shrink: 0 100%;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex: auto;
+}
+    
+.herosubtitle {
+    display: flex;
+    flex: 0 100%;
+    margin: 0 20px;
+}
+
+
+.run-buddy a , .project-2 a , .project-3 a, .project-4 a, .project-5 a {
+    margin-left: 0;
+}
+ 
+.aboutme {
+    padding: 0px
+}
+
+.work {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    justify-content: center;
+    padding: 10px 0px 20px 0px;
+    margin-left: 0px;
+}
+
+.work h3 {
+    padding: 0px;
+    text-align: center;
+}
+    
+.aboutme h3 {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    text-align: center;
+}
+
+
+.column-one {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column-one h3 {
+    border-bottom: 4px solid black;
+    border-right: none;
+    margin-bottom: 15px;
+}
+
+.subrunbuddy, .smallerproject2, .smallerproject3, .smallerproject4, .smallerproject5 {
+   margin-right: 20px;
+   margin-left: -12px;
+}
+
+.column-three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 0px;
+}
+.contactme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contactme h3 {
+    border-bottom: 4px solid #31343d;
+    text-align: center;
+    border-right: none;
+    padding-right: 0px;
+}
+
+.links {
+    display: inline-flex;
+    justify-content: center;
+  
+}
+.links ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.links ul li {
+    display: inline-flex;
+    font-size: 33px;
+    margin-right: 20px;
+    margin-right: 20px;
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px) { 
+ 
+.herosubtitle h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+header nav ul li {
+    padding: 0 5px;
+}
+
+header nav ul {
+    text-align: center;
+    margin-bottom: 10px;
+ }
+
+header nav ul li a {
+    font-size: 14px;
+}
+
+.links ul li {
+    font-size: 28px
+}
+
+.subrunbuddy {
+    font-size: 25px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+.subrunbuddy p {
+    font-size: 15px;
+}
+
+.smallerproject3 h5, .smallerproject2 h5, .smallerproject4 h5, .smallerproject5 {
+    margin-top: -10px;
+    padding-top: 0px;
+    margin-left: -10px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+.smallerproject3 p, .smallerproject2 p, .smallerproject4 p, .smallerproject5 {
+    font-size: 12px;
+    margin-left: -10px;
+}
