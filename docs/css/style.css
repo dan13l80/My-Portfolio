@@ -231,8 +231,9 @@ header a {
     border-right: 4px solid #19516d;
     text-align: right;
 }
-/* Run-buddy Project Styling */
 
+
+/* Run-buddy Project Styling */
 .run-buddy{
     position: relative;
     display: inline-flex;
@@ -285,7 +286,7 @@ header a {
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* Smallerproject Group Styling Begin */
+/* Small Projet Wrap begin here for other Projects */
 
 .smallerprojects {
     position: relative;
