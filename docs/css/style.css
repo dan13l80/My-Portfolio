@@ -88,7 +88,7 @@ nav ul li {
 
 nav ul li a{
     color: #ffffff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 section {
@@ -203,7 +203,7 @@ header a {
 
 .paragraph p {font-size: 17px;
     font-weight: 500;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
     
 .paragraph .p1, .p2 {
