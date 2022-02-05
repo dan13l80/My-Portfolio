@@ -337,7 +337,7 @@ header a {
     padding: 20px 15px 10px 25px;
     background-color: rgba(169, 181, 216, 0.295);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #31343d;
+    color: #ffffff;
     font-size: 25px;
 }
 
@@ -364,7 +364,7 @@ header a {
     border: 4px solid #f7f6e1;
     height: 200px;
     width: 440px;
-    opacity: 75%;
+    opacity: 50%;
     transition: opacity 0.3s, transform 0.3s;
  }
     
@@ -388,7 +388,7 @@ header a {
     padding: 20px 15px 10px 25px;
     background-color: rgba(169, 181, 216, 0.295);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #31343d;
+    color: #ffffff;
     font-size: 25px;
 }
     
